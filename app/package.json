@@ -1,0 +1,25 @@
+{
+  "name": "bulletin-board-v2",
+  "version": "1.0.0",
+  "description": "Simple Bulletin Board System for docker testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon --inspect=0.0.0.0 index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "BBS",
+    "Docker",
+    "Example"
+  ],
+  "author": "Malte Janssen",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.608.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
